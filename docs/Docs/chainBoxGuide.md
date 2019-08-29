@@ -750,7 +750,7 @@ Serialization rules:
 
 ##### <span id="BlockSignature">[BlockSignature](https://github.com/nuls-io/nuls-v2/blob/master/common/nuls-base/src/main/java/io/nuls/base/signture/BlockSignature.java)</span>
 1. 1 byte stores the public key length.
-2. Public key data (length is obtained according to 1)
+2. Public key data (length is obtained according to 1).
 3. Variable length type stores signature data.
 
 ##### <span id="Variable Type Storage Structure"> Variable Length Type Storage Structure</span>
