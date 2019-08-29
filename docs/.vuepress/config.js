@@ -27,35 +27,27 @@ module.exports = {
         docsBranch: 'dev',
         sidebarDepth: 2,
         lastUpdated: 'Last Updated',
-        nav:[
-        {text:"NULS2.0",link:"/NULS2.0/"}
-        ],
         locales: {
             '/': {
                 selectText: 'Languages',
                 label: 'English',
                 editLinkText: 'Edit this page on GitHub',
+                nav:[
+                {text:"Guide",link:"/Guide/"},
+                {text:"Docs",link:"/Docs/"}
+                ],
                 sidebar: {
-                    "/NULS2.0/WechatIMG321.png":[
+                    "/Guide/":[
                         {
-                            title: 'Introduction',
+                            title: 'Guide',
                             collapsable:false,
                             children: [
-                            ''
+                            '',
+                            'howToContribute'
                             ]
-                        },
-                        {
-                            title: 'Tutorial',
-                            collapsable:false,
-                            children: [
-                            'quickStart',
-                            'developeModule',
-                            'encryptedMessageDesign',
-                            'chainBoxGuide',
-                            'linuxTutorial',
-                            'nodeGuide'
-                            ]
-                        },
+                        }
+                    ],
+                    "/Docs/":[
                         {
                             title: 'Design',
                             collapsable:false,
@@ -68,6 +60,17 @@ module.exports = {
                             collapsable:false,
                             children: [
                             'quickStart'
+                            ]
+                        },
+                        {
+                            title: 'ChainBox',
+                            collapsable:false,
+                            children: [
+                            
+                            'developeModule',
+                            'encryptedMessageDesign',
+                            'chainBoxGuide',
+                            
                             ]
                         },
                         {
@@ -99,30 +102,24 @@ module.exports = {
                 editLinkText: '在 GitHub 上编辑此页',
                 // Service Worker 的配置
                 nav:[
-                {text:"NULS2.0",link:"/zh/NULS2.0/"}
+                {text:"指南",link:"/zh/Guide/"},
+                {text:"文档",link:"/zh/Docs/"}
                 ],
                 sidebar: {
-                   "/zh/NULS2.0/":[
-                        {   
-                            title: '介绍',
-                            collapsable:false,
-                            children: [
-                            ''
-                            ]
-                        },
+                    "/zh/Guide/":[
                         {
-                            title: '教程',
+                            title: 'Guide',
                             collapsable:false,
                             children: [
-                            'quickStart',
-                            'developeModule',
-                            'encryptedMessageDesign',
-                            'chainBoxGuide',
-                            'linuxTutorial',
-                            'nodeGuide',
-                            'multiSignAccount'
+                            '',
+                            'howToContribute',
+                            'NULSExplorerGuide',
+                            'joinCCC',
+                            'NULSTransaction'
                             ]
-                        },
+                        }
+                    ],
+                   "/zh/Docs/":[
                         {   
                             title: '设计文档',
                             collapsable:false,
@@ -135,6 +132,17 @@ module.exports = {
                             collapsable:false,
                             children: [
                             'quickStart'
+                            ]
+                        },
+                        {
+                            title: 'ChainBox',
+                            collapsable:false,
+                            children: [
+                            
+                            'developeModule',
+                            'encryptedMessageDesign',
+                            'chainBoxGuide',
+                            
                             ]
                         },
                         {
